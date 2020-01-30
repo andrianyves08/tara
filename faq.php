@@ -12,7 +12,7 @@ include 'inc/header.php';
   <main class="mt-5 pt-5">
 
     <div class="container mt-2">
-<section class="pt-5">
+      <section class="pt-5">
 
         <!-- Heading & Description -->
         <div class="wow fadeIn" style="visibility: visible; animation-name: fadeIn;">

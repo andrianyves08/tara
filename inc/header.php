@@ -26,6 +26,10 @@
   <link href="css/style.min.css" rel="stylesheet">
   <!-- Toastr css -->
   <link rel="stylesheet" href="plugins/toastr/toastr.min.css">
+
+  <link rel="stylesheet" href="bower_components/bootstrap-datetimepicker.css" />
+  <link rel="stylesheet" href="bower_components/bootstrap-datetimepicker.min.css" />
+  <link rel="stylesheet" href="bower_components/bootstrap-datetimepicker-standalone.css" />
   <style type="text/css">
     @media (min-width: 800px) and (max-width: 850px) {
       .navbar:not(.top-nav-collapse) {

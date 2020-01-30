@@ -62,7 +62,7 @@
 
         <!--Footer-->
         <div class="modal-footer justify-content-center">
-<button class="btn btn-default">Login</button>
+          <button class="btn btn-default">Login</button>
         </div>
         </form>
       </div>
@@ -87,15 +87,15 @@
         <!--Body-->
         <div class="modal-bod mx-3">
           <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST" class="p-2">
-            <input type="text" id="username" name="username" placeholder="Enter Username" class="form-control mb-4" placeholder="ID Number">
+            <input type="text" id="loginusername" name="loginusername" placeholder="Enter Username" class="form-control mb-4" placeholder="ID Number">
 
-            <input type="password" id="password" name="password" class="form-control mb-4" placeholder="Password">
+            <input type="password" id="loginpassword" name="loginpassword" class="form-control mb-4" placeholder="Password">
 
         </div>
 
         <!--Footer-->
         <div class="modal-footer justify-content-center">
-<button class="btn btn-default">Login</button>
+          <button class="btn btn-default">Login</button>
         </div>
         </form>
       </div>
@@ -121,24 +121,8 @@
         <i class="fab fa-youtube mr-3"></i>
       </a>
 
-      <a href="https://plus.google.com/u/0/b/107863090883699620484" target="_blank">
-        <i class="fab fa-google-plus-g mr-3"></i>
-      </a>
-
       <a href="https://dribbble.com/mdbootstrap" target="_blank">
-        <i class="fab fa-dribbble mr-3"></i>
-      </a>
-
-      <a href="https://pinterest.com/mdbootstrap" target="_blank">
-        <i class="fab fa-pinterest mr-3"></i>
-      </a>
-
-      <a href="https://github.com/mdbootstrap/bootstrap-material-design" target="_blank">
-        <i class="fab fa-github mr-3"></i>
-      </a>
-
-      <a href="http://codepen.io/mdbootstrap/" target="_blank">
-        <i class="fab fa-codepen mr-3"></i>
+        <i class="fab fa-instagram mr-3"></i>
       </a>
     </div>
     <!-- Social icons -->
@@ -160,7 +144,7 @@
             </li>
             <li class="list-inline-item">
               <a href="#">
-                Contact US
+                Contact us
               </a>
             </li>
             <li class="list-inline-item">

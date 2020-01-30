@@ -1,4 +1,6 @@
-  <!-- SCRIPTS -->
+    <!-- SCRIPTS -->
+
+
   <!-- JQuery -->
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <!-- Bootstrap tooltips -->
@@ -13,9 +15,10 @@
     new WOW().init();
 
   </script>
+      <script type="text/javascript" src="bower_components/moment.min.js"></script>
+    <script type="text/javascript" src="bower_components/bootstrap-datetimepicker.min.js"></script>
 
-  <script src="plugins/toastr/toastr.min.js"></script>
-
+<script src="plugins/toastr/toastr.min.js"></script>
   <script type="text/javascript">
     $(function() {  
       <?php
