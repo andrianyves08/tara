@@ -69,16 +69,8 @@
   background: linear-gradient(to 45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
 }
 
-.card {
+.trans {
   background-color: rgba(126, 123, 215, 0.2);
-}
-
-.md-form label {
-  color: #ffffff;
-}
-
-h6 {
-  line-height: 1.7;
 }
 
   </style>

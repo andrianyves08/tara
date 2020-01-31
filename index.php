@@ -17,7 +17,7 @@ include 'inc/header.php';
 
       <!-- Content -->
       <div class="text-center white-text mx-5 wow fadeIn">
-         <div class="card wow fadeInUp" data-wow-delay="0.3s">
+         <div class="trans wow fadeInUp" data-wow-delay="0.3s">
               <div class="card-body">
                         <h1 class="mb-4">
           <strong>Nya Ngay?</strong>
