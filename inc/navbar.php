@@ -1,10 +1,10 @@
    <!-- Navbar -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+  <nav class="navbar fixed-top navbar-expand-lg <?php if($link == 'home') {echo 'navbar-dark';} else { echo 'navbar-light white';} ?> white scrolling-navbar">
     <div class="container">
 
       <!-- Brand -->
       <a class="navbar-brand" href="index.php"/>
-        <strong>Tara</strong>
+        <strong>Nya Ngay?</strong>
       </a>
 
       <!-- Collapse -->
@@ -34,7 +34,23 @@
             </a>
           </li>
         </ul>
+<?php
+session_start();
+if(isset($_SESSION['user_id'])){
+    echo '<ul class="navbar-nav nav-flex-icons">
 
+            <li class="nav-item">
+             <p class="nav-link waves-effect"> Hello, ' . $_SESSION['user_name'] . '!</p>
+              
+            </li>
+            <li class="nav-item">
+              <a class="nav-link waves-effect" href="./functions/logout.php">Logout</a>
+              
+            </li>
+          </ul>';
+
+}else{
+echo '
           <!-- Right -->
           <ul class="navbar-nav nav-flex-icons">
 
@@ -46,8 +62,9 @@
               <a class="nav-link waves-effect" data-toggle="modal" data-target="#login">Login
               </a>
             </li>
-          </ul>
-
+          </ul>';
+}
+?>
       </div>
 
     </div>

@@ -1,5 +1,5 @@
 <?php 
-$title = "Tara";
+$title = "Nya Ngay?";
 $link = "home";
 include 'inc/header.php'; 
 
@@ -17,7 +17,9 @@ include 'inc/header.php';
 
       <!-- Content -->
       <div class="text-center white-text mx-5 wow fadeIn">
-        <h1 class="mb-4">
+         <div class="card wow fadeInUp" data-wow-delay="0.3s">
+              <div class="card-body">
+                        <h1 class="mb-4">
           <strong>Nya Ngay?</strong>
         </h1>
 
@@ -31,9 +33,16 @@ include 'inc/header.php';
             Create your own, stunning website.</strong>
         </p>
 
-        <a href="#" class="btn btn-outline-white btn-lg">Get Started
+        <a href="guide.php" class="btn btn-outline-white btn-lg">Get Started
           <i class="fas fa-handshake ml-2"></i>
         </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
       </div>
       <!-- Content -->
 

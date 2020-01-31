@@ -1,4 +1,3 @@
-
 <!-- Sign Up -->
   <div class="modal fade" id="signup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
     aria-hidden="true">
@@ -15,46 +14,46 @@
 
         <!--Body-->
         <div class="modal-body mx-3">
-            <form class="form-contact contact_form" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
+            <form class="form-contact contact_form" action="./functions/register.php" method="post">
               <div class="row">
                 <div class="col-sm-12">
                   <div class="form-group">
-                    <input required class="form-control" name="username" id="username" type="text" placeholder='Username'>
+                    <input required class="form-control" name="username" id="username" type="text" placeholder="Username">
                   </div>
                 </div>
                 <div class="col-sm-12">
                   <div class="form-group">
-                    <input required class="form-control" name="email" type="text" placeholder='Enter Email'>
+                    <input required class="form-control" name="email" type="text" placeholder="Enter Email">
                   </div>
                 </div>
                 <div class="col-sm-12">
                   <div class="form-group">
-                    <input required class="form-control" name="password" type="password" placeholder='Enter password'>
+                    <input required class="form-control" name="password" type="password" placeholder="Enter password">
                   </div>
                 </div>
                 <div class="col-sm-12">
                   <div class="form-group">
-                    <input required class="form-control" name="confirmpassword" type="password" placeholder='Confirm password'>
+                    <input required class="form-control" name="confirmpassword" type="password" placeholder="Confirm password">
                   </div>
                 </div>
                 <div class="col-sm-6">
                   <div class="form-group">
-                    <input required class="form-control" name="firstname" type="text" placeholder='Enter Firstname'>
+                    <input required class="form-control" name="firstname" type="text" placeholder="Enter Firstname">
                   </div>
                 </div>
                 <div class="col-sm-6">
                   <div class="form-group">
-                    <input required class="form-control" name="lastname" type="text" placeholder='Enter Lastname'>
+                    <input required class="form-control" name="lastname" type="text" placeholder="Enter Lastname">
                   </div>
                 </div>
                 <div class="col-sm-6">
                   <div class="form-group">
-                    <input required class="form-control" name="address" type="text" placeholder='Enter Address'>
+                    <input required class="form-control" name="address" type="text" placeholder="Enter Address">
                   </div>
                 </div>
                 <div class="col-sm-6">
                   <div class="form-group">
-                    <input required class="form-control" name="birthday" type="date" placeholder='Enter birthday'>
+                    <input required class="form-control" name="dob" type="date" placeholder="Enter birthday">
                   </div>
                 </div>
               </div>
@@ -62,7 +61,7 @@
 
         <!--Footer-->
         <div class="modal-footer justify-content-center">
-          <button class="btn btn-default">Login</button>
+          <button class="btn btn-default">Register</button>
         </div>
         </form>
       </div>
@@ -86,10 +85,10 @@
 
         <!--Body-->
         <div class="modal-bod mx-3">
-          <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST" class="p-2">
-            <input type="text" id="loginusername" name="loginusername" placeholder="Enter Username" class="form-control mb-4" placeholder="ID Number">
+            <form action="./functions/saveme.php" method="POST" class="p-2">
+            <input type="text" id="loginusername" name="username" placeholder="Enter Username" class="form-control mb-4" placeholder="ID Number">
 
-            <input type="password" id="loginpassword" name="loginpassword" class="form-control mb-4" placeholder="Password">
+            <input type="password" id="loginpassword" name="password" class="form-control mb-4" placeholder="Password">
 
         </div>
 
@@ -109,7 +108,7 @@
 
     <!-- Social icons -->
     <div class="pb-4 text-center">
-      <a href="https://www.facebook.com/mdbootstrap" target="_blank">
+      <a href="https://www.facebook.com/intelektsolutions" target="_blank">
         <i class="fab fa-facebook-f mr-3"></i>
       </a>
 
@@ -131,8 +130,8 @@
     <div class="footer-copyright py-3">
       <div class="row mx-md-n2">
         <div class="col-md-3 col-lg-8">
-          © 2019 Copyright:
-          <a href="" > Tara.com </a>
+          © 2020 Copyright:
+          <a href="https://www.intelektbusiness.com" > intelektbusiness.com </a>
         </div>
 
         <div class="col-md-9 col-lg-4">
