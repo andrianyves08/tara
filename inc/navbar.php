@@ -1,5 +1,5 @@
    <!-- Navbar -->
-  <nav class="navbar fixed-top navbar-expand-lg <?php if($link == 'home') {echo 'navbar-dark';} else { echo 'navbar-light white';} ?> white scrolling-navbar">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
     <div class="container">
 
       <!-- Brand -->
