@@ -7,6 +7,7 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>
     <?php 
+    session_start();
     if(isset($title) && !empty($title)) { 
        echo $title; 
     } 
@@ -14,6 +15,11 @@
        echo "Default title tag"; 
     } ?>
   </title>
+  <script>
+        $('.navbar-collapse a').click(function(){
+            $(".navbar-collapse").collapse('hide');
+        });
+    </script>
   <!-- Font Awesome -->
 <!--   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"> -->
   <!-- Font Awesome Offline-->
@@ -31,10 +37,12 @@
   <link rel="stylesheet" href="bower_components/bootstrap-datetimepicker.min.css" />
   <link rel="stylesheet" href="bower_components/bootstrap-datetimepicker-standalone.css" />
   <style type="text/css">
-    @media (min-width: 800px) and (max-width: 850px) {
-      .navbar:not(.top-nav-collapse) {
-        background: #1C2331 !important;
-      }
+    @media (max-width: 1000px) {
+        .navbar-collapse.collapse {
+            display: none !important; 
+            
+        } 
+        
     }
 
     * {

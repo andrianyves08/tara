@@ -1,6 +1,11 @@
 <!-- Sign Up -->
+<script>
+        $('.navbar-collapse a').click(function(){
+            $(".navbar-collapse").collapse('hide');
+        });
+    </script>
   <div class="modal fade" id="signup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-    aria-hidden="true">
+    aria-hidden="true" data-backdrop="static" data-keyboard="false">
     <div class="modal-dialog" role="document">
       <!--Content-->
       <div class="modal-content">
@@ -61,7 +66,8 @@
 
         <!--Footer-->
         <div class="modal-footer justify-content-center">
-          <button class="btn btn-default">Register</button>
+        	<button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+          <button class="btn btn-primary">Register</button>
         </div>
         </form>
       </div>
@@ -71,7 +77,7 @@
 
   <!-- Login -->
   <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-    aria-hidden="true">
+    aria-hidden="true" data-backdrop="static" data-keyboard="false">
     <div class="modal-dialog" role="document">
       <!--Content-->
       <div class="modal-content">
@@ -94,7 +100,8 @@
 
         <!--Footer-->
         <div class="modal-footer justify-content-center">
-          <button class="btn btn-default">Login</button>
+        	<button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+          <button class="btn btn-primary">Login</button>
         </div>
         </form>
       </div>
@@ -112,17 +119,9 @@
         <i class="fab fa-facebook-f mr-3"></i>
       </a>
 
-      <a href="https://twitter.com/MDBootstrap" target="_blank">
-        <i class="fab fa-twitter mr-3"></i>
-      </a>
+     
 
-      <a href="https://www.youtube.com/watch?v=7MUISDJ5ZZ4" target="_blank">
-        <i class="fab fa-youtube mr-3"></i>
-      </a>
-
-      <a href="https://dribbble.com/mdbootstrap" target="_blank">
-        <i class="fab fa-instagram mr-3"></i>
-      </a>
+      
     </div>
     <!-- Social icons -->
 

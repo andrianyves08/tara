@@ -1,4 +1,9 @@
    <!-- Navbar -->
+   <script>
+        $('.navbar-collapse a').click(function(){
+            $(".navbar-collapse").collapse('hide');
+        });
+    </script>
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
     <div class="container">
 
@@ -29,13 +34,12 @@
             </a>
           </li>
           <li class="nav-item <?php if($link == 'faq') {echo 'active';} ?>">
-            <a class="nav-link" href="faq.php">Faq/Guide
+            <a class="nav-link" href="faq.php">FAQ/Guide
               <?php if($link == 'faq') {echo '<span class="sr-only">(current)</span>';} ?>
             </a>
           </li>
         </ul>
 <?php
-session_start();
 if(isset($_SESSION['user_id'])){
     echo '<ul class="navbar-nav nav-flex-icons">
 

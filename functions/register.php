@@ -10,7 +10,7 @@ $email =$_POST['email'];
 
 echo $user, $last, $first, $pass, $dob, $addr;
 
-$sql = "INSERT INTO tara.members (tara_username, tara_last_name, tara_first_name, tara_dob, tara_address, tara_email, tara_password) VALUES ('$user', '$last', '$first', '$dob', '$addr', '$email', '$pass')";
+$sql = "INSERT INTO u982083468_nyangay.members (tara_username, tara_last_name, tara_first_name, tara_dob, tara_address, tara_email, tara_password) VALUES ('$user', '$last', '$first', '$dob', '$addr', '$email', '$pass')";
 
 if($conn->query($sql) == TRUE){
     echo "Registered successfully!";

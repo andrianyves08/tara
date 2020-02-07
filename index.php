@@ -7,7 +7,7 @@ include 'inc/header.php';
 ?>
 
 <body>
- <?php include 'inc/navbar.php'; ?>
+ <?php include 'inc/navbar.php';?>
  
  <!-- Full Page Intro -->
   <div class="view" style="background-image: url('img/home_bg.jpg'); background-repeat: no-repeat; background-size: cover;">
@@ -24,13 +24,11 @@ include 'inc/header.php';
         </h1>
 
         <p>
-          <strong>Meet Tayo? Tara!</strong>
+          <strong>Meet Tayo? Tara! </strong>
         </p>
 
         <p class="mb-4 d-none d-md-block">
-          <strong>The most comprehensive tutorial for the Bootstrap 4. Loved by over 500 000 users. Video and written
-            versions available.
-            Create your own, stunning website.</strong>
+          <strong>Never go out alone! Meet and make new friends!</strong>
         </p>
 
         <a href="guide.php" class="btn btn-outline-white btn-lg">Get Started
